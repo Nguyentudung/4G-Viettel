@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>4G Viettel</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="card">
+        <h1>Nạp thẻ</h1>
+        <label for="game">Chọn tựa game bạn muốn nạp:</label>
+        <select name="game" id="game">
+            <option value="LienQuan">Liên Quân</option>
+            <option value="FreeFire">Free Fire</option>
+        </select>
+
+        <label for="total">Nhập số quân huy (kim cương):</label>
+        <input type="number" name="total" id="total" placeholder="Nhập số quân huy (kim cương)...">
+
+        <button class="convert">Chuyển thành tiền</button>
+    </div>
+
+        <!-- Popup Modal -->
+    <div id="modal" class="modal">
+        <div class="modal-content">
+            <span class="close">&times;</span>
+            <div id="result"></div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+
+</body>
+</html>
